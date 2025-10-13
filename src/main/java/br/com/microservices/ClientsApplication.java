@@ -1,4 +1,4 @@
-package br.com.microservices.clients;
+package br.com.microservices;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
