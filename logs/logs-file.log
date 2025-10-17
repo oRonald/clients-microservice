@@ -362,3 +362,17 @@ insert into client (age,cpf,name,id) values (?,?,?,default) [23505-232]
 2025-10-16T15:52:07.494-03:00  INFO 18660 --- [clients] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2025-10-16T15:57:07.497-03:00  INFO 18660 --- [clients] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2025-10-16T16:02:07.504-03:00  INFO 18660 --- [clients] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-16T16:07:07.510-03:00  INFO 18660 --- [clients] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-16T16:11:30.918-03:00  INFO 18660 --- [clients] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CLIENTS with eureka with status DOWN
+2025-10-16T16:11:30.918-03:00  INFO 18660 --- [clients] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760641890918, current=DOWN, previous=UP]
+2025-10-16T16:11:30.919-03:00  INFO 18660 --- [clients] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CLIENTS/clients:46e577d7a5b65339f2a9c2875e032958: registering service...
+2025-10-16T16:11:30.921-03:00  INFO 18660 --- [clients] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-16T16:11:30.926-03:00  INFO 18660 --- [clients] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-16T16:11:30.931-03:00  INFO 18660 --- [clients] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-16T16:11:30.934-03:00  INFO 18660 --- [clients] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-16T16:11:30.936-03:00  INFO 18660 --- [clients] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-16T16:11:30.937-03:00  INFO 18660 --- [clients] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-10-16T16:11:30.986-03:00  INFO 18660 --- [clients] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CLIENTS/clients:46e577d7a5b65339f2a9c2875e032958 - registration status: 204
+2025-10-16T16:11:30.986-03:00  INFO 18660 --- [clients] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-10-16T16:11:31.050-03:00  INFO 18660 --- [clients] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CLIENTS/clients:46e577d7a5b65339f2a9c2875e032958 - deregister  status: 200
+2025-10-16T16:11:31.050-03:00  INFO 18660 --- [clients] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
