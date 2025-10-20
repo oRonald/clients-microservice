@@ -8,7 +8,7 @@ será registrado os outros serviços, o Discovery Client se trata da aplicação
 
 <img width="755" height="198" alt="image" src="https://github.com/user-attachments/assets/d7aa442d-1375-4945-9ad9-7f0e28af96b7" />
 
-<p>Como foi utiliado o gateway como ponte entre os microserviços e o usuario, a porta foi definida como aleatória.</p>
+<p>Como foi utilizado o gateway como ponte entre os microserviços e o usuario, a porta foi definida como aleatória.</p>
 Nós precisamos definir qual o localhost ou URL do Discovery Server para que o serviço se registre automaticamente.
 
 <hr/>
