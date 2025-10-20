@@ -1,7 +1,7 @@
 # Client Microservice
 
 Esse microserviço é o responsável pela manipulação dos dados dos clientes, possuindo métodos como registrar e uma busca por CPF.
-Como se trata apenas de uma apicação para estudos de arquitetura de microserviço, utilizei o Banco de Dados H2 para salvar registros e realizar pesquisas.
+Como se trata apenas de uma aplicação para estudos de arquitetura de microserviço, utilizei o Banco de Dados H2 para salvar registros e realizar pesquisas.
 
 Por se tratar de um dos microserviços da aplicação, foi implementado o Eureka Discovery Client, que diferentemente do Discovery Server, que é o servidor que 
 será registrado os outros serviços, o Discovery Client se trata da aplicação que será registrada no Discovery Server
